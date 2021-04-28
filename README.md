@@ -10,6 +10,8 @@ By default it uses Postgres connection. If you are using different Database, you
 
 This template uses [air](https://github.com/cosmtrek/air) with hot reload feature in development environment. Read the installation guide [here](https://github.com/cosmtrek/air#installation).
 
+Copy `.env.example` to `.env` and modify the env value as needed
+
 - `go mod download`: install all required dependencies
 - `air -d .air.toml`: start a dev server with hot reload
 - `go test -v ./...`: run all tests on all packages
